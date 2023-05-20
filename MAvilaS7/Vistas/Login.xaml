@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAvilaS7.Vistas.Login">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="VENTANA DE INICIO" FontSize="20" HorizontalTextAlignment="Center"/>
+          
+            <Entry x:Name="txtUsuario" Placeholder="Ingrese usuario"/>
+            <Entry x:Name="txtContrasena" Placeholder="Ingrese contrasena"  IsPassword="True"/>
+            <Button x:Name="btnIinicio" Text="INICIO" Clicked="btnIinicio_Clicked"/>
+            <Button x:Name="btnRegistro" Text="REGISTRO" Clicked="btnRegistro_Clicked"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

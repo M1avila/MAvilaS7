@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAvilaS7.Vistas.Registro">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="VENTANA DE REGISTRO"
+                FontSize="18" 
+                HorizontalOptions="Center" />
+
+            <Entry x:Name="txtNombre" Placeholder="Ingrese Nombre"/>
+            <Entry x:Name="txtUsuario" Placeholder="Ingrese Usuario"/>
+            <Entry x:Name="txtContrasena" Placeholder="Ingrese Contrasena"/>
+            <Button x:Name="btnIngreso" Text="registr" Clicked="btnIngreso_Clicked"/>
+           
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
